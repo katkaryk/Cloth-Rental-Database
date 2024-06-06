@@ -1,19 +1,14 @@
 {
-  "name": "main_api",
+  "name": "your-project-name",
   "version": "1.0.0",
-  "description": "cart item data",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
-  "author": "hrushikesh-yash",
-  "license": "ISC",
-  "devDependencies": {
-    "express": "^4.19.2",
-    "mongodb": "^6.7.0",
-    "mongoose": "^8.4.1",
-    "nodemon": "^3.1.3",
-    "npm": "^10.8.1"
-  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "dotenv": "^10.0.0"
+  }
 }
